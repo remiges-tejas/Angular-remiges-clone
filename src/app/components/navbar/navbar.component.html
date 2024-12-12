@@ -1,0 +1,260 @@
+<main class="border-b md:shadow-md">
+  <nav class="max-w-full md:my-3 md:mx-12 font-figtree">
+    <div class="md:grid md:grid-cols-12 items-center">
+      <!-- logo -->
+      <div class="hidden md:block md:col-span-2">
+        <img
+          src=" https://remiges.tech/wp-content/uploads/2024/04/Remiges-logo-2048x403.png"
+          alt="remigeslogo"
+          class="w-1/2 md:w-2/3"
+        />
+      </div>
+      <!-- NavItem -->
+      <div class="hidden md:block md:col-span-8 lg:gap-3">
+        <div class="md:w-2/3">
+          <ul
+            class="md:flex md:flex-row items-center md:gap-5 justify-around font-figtree font-medium text-md"
+          >
+            <li
+              routerLink=""
+              class="hover:text-cyan-400 cursor-pointer text-rblue"
+            >
+              <div
+                class="md:flex justify-center items-center flex-row gap-1 content-center"
+              >
+                <span>
+                  <i class="fa-solid fa-house"></i>
+                </span>
+
+                <span> Home </span>
+              </div>
+            </li>
+
+            <li
+              routerLink="/"
+              class="hover:text-cyan-400 cursor-pointer text-rblue"
+            >
+              <div
+                class="md:flex justify-center items-center flex-row gap-1 content-center"
+              >
+                <span>
+                  <i class="fa-solid fa-address-book"></i>
+                </span>
+                <span> Contact </span>
+              </div>
+            </li>
+            <!-- <li
+              routerLink="/r_ser"
+              class="hover:text-cyan-400 cursor-pointer text-rblue"
+            >
+              Service
+            </li> -->
+            <li
+              routerLink="/blog"
+              class="hover:text-cyan-400 cursor-pointer text-rblue"
+            >
+              <div
+                class="md:flex justify-center items-center flex-row gap-1 content-center"
+              >
+                <span>
+                  <i class="fa-solid fa-blog"></i>
+                </span>
+                <span routerLink=""> Blogs </span>
+              </div>
+            </li>
+            <li class="hover:text-cyan-400 cursor-pointer text-rblue">
+              <div
+                class="md:flex justify-center items-center flex-row gap-1 content-center"
+              >
+                <span>
+                  <i class="fa-solid fa-cart-plus"></i>
+                </span>
+                <span routerLink=""> Products </span>
+              </div>
+            </li>
+            <li
+              routerLink="/employees"
+              class="hover:text-cyan-400 cursor-pointer text-rblue"
+            >
+              <div
+                class="md:flex justify-center items-center flex-row gap-1 content-center"
+              >
+                <span>
+                  <i class="fa-solid fa-user"></i>
+                </span>
+                <span routerLink=""> Employees </span>
+              </div>
+            </li>
+            <li
+              routerLink="/assignments"
+              class="hover:text-cyan-400 cursor-pointer text-rblue"
+            >
+              <div
+                class="md:flex justify-center items-center flex-row gap-1 content-center"
+              >
+                <span>
+                  <i class="fa-solid fa-book"></i>
+                </span>
+                <span routerLink=""> Assignments </span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="hidden lg:block md:col-span-2">
+        <div class="text-center">
+          <button
+          routerLink="/register"
+            class="border px-4 py-2 rounded-md bg-rblue text-white font-medium font-figtree hover:bg-rcyan text-md"
+          >
+            Register
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Nav Bar -->
+
+      <div
+        class="w-max-md px-3 flex justify-between items-center py-3 shadow-md md:hidden"
+      >
+        <div>
+          <img
+            src=" https://remiges.tech/wp-content/uploads/2024/04/Remiges-logo-2048x403.png"
+            alt="remigeslogo"
+            class="w-1/2"
+          />
+        </div>
+
+        <div>
+          <span class="cursor-pointer">
+            <i
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight"
+              class="fa-solid fa-bars text-[24px] text-blue-900 cursor-pointer"
+            ></i>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</main>
+
+<!-- Mobile view Toggle Bootstrap  -->
+
+<div
+  class="offcanvas offcanvas-end"
+  tabindex="-1"
+  id="offcanvasRight"
+  aria-labelledby="offcanvasRightLabel"
+>
+  <div class="offcanvas-header">
+    <div class="border-b w-full pb-3">
+      <h1
+        id="offcanvas-header"
+        class="md:block text-blue-950 font-rfont font-medium text-lg md:text-[18px] tracking-wider"
+      >
+        Remiges Technology
+      </h1>
+    </div>
+    <button
+      type="button"
+      class="btn-close text-reset"
+      data-bs-dismiss="offcanvas"
+      aria-label="Close"
+    ></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="flex flex-col gap-3 w-max-lg">
+      <!-- <div class="border-b w-full pb-3">
+        <h1
+          id="offcanvas-header"
+          class=" md:block text-blue-950 font-rfont font-medium text-lg md:text-[18px] tracking-wider"
+        >
+          Remiges Technology
+        </h1>
+      </div> -->
+
+      <div
+        routerLink="/"
+        data-bs-dismiss="offcanvas"
+        class="w-full hover:bg-blue-900 text-rblue hover:text-white border-b py-2 px-2 md:flex justify-center items-center flex-row gap-1"
+      >
+        <span>
+          <i class="fa-solid fa-house"></i>
+        </span>
+
+        <span> Home </span>
+      </div>
+
+      <div
+        routerLink="/"
+        data-bs-dismiss="offcanvas"
+        class="w-full hover:bg-blue-900 text-rblue hover:text-white border-b py-2 px-2 md:flex justify-center items-center flex-row gap-1"
+      >
+        <span>
+          <i class="fa-solid fa-address-book"></i>
+        </span>
+        <span routerLink=""> Contact </span>
+      </div>
+
+      <div
+        routerLink="/blog"
+        data-bs-dismiss="offcanvas"
+        class="w-full hover:bg-blue-900 text-rblue hover:text-white border-b py-2 px-2 md:flex justify-center items-center flex-row gap-1"
+      >
+        <span>
+          <i class="fa-solid fa-blog"></i>
+        </span>
+        <span routerLink=""> Blogs </span>
+      </div>
+
+      <div
+        routerLink="/"
+        data-bs-dismiss="offcanvas"
+        class="w-full hover:bg-blue-900 text-rblue hover:text-white border-b py-2 px-2 md:flex justify-center items-center flex-row gap-1"
+      >
+        <span>
+          <i class="fa-solid fa-cart-plus"></i>
+        </span>
+        <span routerLink=""> Products </span>
+      </div>
+
+      <div
+        routerLink="/employees"
+        data-bs-dismiss="offcanvas"
+        class="w-full hover:bg-blue-900 text-rblue hover:text-white border-b py-2 px-2 md:flex justify-center items-center flex-row gap-1"
+      >
+        <span>
+          <i class="fa-solid fa-user"></i>
+        </span>
+        <span routerLink=""> Employees </span>
+      </div>
+
+      <div
+        routerLink="/assignments"
+        data-bs-dismiss="offcanvas"
+        class="w-full hover:bg-blue-900 text-rblue hover:text-white border-b py-2 px-2 md:flex justify-center items-center flex-row gap-1"
+      >
+        <span>
+          <i class="fa-solid fa-book"></i>
+        </span>
+        <span routerLink=""> Assignments </span>
+      </div>
+
+      <div class="">
+        <button
+          data-bs-dismiss="offcanvas"
+          routerLink="register"
+          class="md:flex mt-4 mx-4 items-center gap-2 border px-6 py-2 text-white rounded-md bg-blue-800 hover:text-white"
+        >
+          <span class="mx-2">Register</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>

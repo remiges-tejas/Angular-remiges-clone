@@ -1,0 +1,285 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "about": "A passionate web developer who loves creating beautiful websites.",
+      "isActive": true,
+      "image": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "about": "Full-stack developer with a keen interest in JavaScript and Node.js.",
+      "isActive": false,
+      "image": "https://randomuser.me/api/portraits/women/1.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Samuel Johnson",
+      "about": "Backend engineer who enjoys solving complex problems with code.",
+      "isActive": true,
+      "image": "https://randomuser.me/api/portraits/men/2.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Emily White",
+      "about": "UI/UX designer with a focus on creating user-centered designs.",
+      "isActive": true,
+      "image": "https://randomuser.me/api/portraits/women/2.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Michael Brown",
+      "about": "Software engineer who loves working on scalable systems.",
+      "isActive": false,
+      "image": "https://randomuser.me/api/portraits/men/3.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Sarah Davis",
+      "about": "Product manager who is always looking for innovative solutions.",
+      "isActive": true,
+      "image": "https://randomuser.me/api/portraits/women/3.jpg"
+    },
+    {
+      "id": 7,
+      "name": "David Wilson",
+      "about": "Mobile app developer with a passion for creating seamless user experiences.",
+      "isActive": false,
+      "image": "https://randomuser.me/api/portraits/men/4.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Olivia Taylor",
+      "about": "Data scientist with expertise in machine learning and AI.",
+      "isActive": true,
+      "image": "https://randomuser.me/api/portraits/women/4.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Liam Martinez",
+      "about": "DevOps engineer focused on automating infrastructure and deployments.",
+      "isActive": true,
+      "image": "https://randomuser.me/api/portraits/men/5.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Sophia Garcia",
+      "about": "Software engineer with a love for coding and problem-solving.",
+      "isActive": false,
+      "image": "https://randomuser.me/api/portraits/women/5.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Ethan Anderson",
+      "about": "Cloud solutions architect with expertise in AWS and Azure.",
+      "isActive": true,
+      "image": "https://randomuser.me/api/portraits/men/6.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Ava Thomas",
+      "about": "Frontend developer with a passion for creating beautiful interfaces.",
+      "isActive": true,
+      "image": "https://randomuser.me/api/portraits/women/6.jpg"
+    },
+    {
+      "id": 13,
+      "name": "James Jackson",
+      "about": "Cybersecurity expert focused on protecting applications and networks.",
+      "isActive": true,
+      "image": "https://randomuser.me/api/portraits/men/7.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Isabella Lee",
+      "about": "QA engineer focused on automation and testing quality code.",
+      "isActive": false,
+      "image": "https://randomuser.me/api/portraits/women/7.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Alexander Harris",
+      "about": "Frontend developer with a focus on React and modern JavaScript frameworks.",
+      "isActive": true,
+      "image": "https://randomuser.me/api/portraits/men/8.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Charlotte Clark",
+      "about": "Software architect with a passion for scalable and maintainable code.",
+      "isActive": true,
+      "image": "https://randomuser.me/api/portraits/women/8.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Benjamin Lewis",
+      "about": "Full-stack developer with experience in both front-end and back-end technologies.",
+      "isActive": true,
+      "image": "https://randomuser.me/api/portraits/men/9.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Amelia Walker",
+      "about": "Creative developer with a focus on digital marketing solutions.",
+      "isActive": true,
+      "image": "https://randomuser.me/api/portraits/women/9.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Lucas Young",
+      "about": "Web developer with an interest in building scalable applications using Node.js.",
+      "isActive": true,
+      "image": "https://randomuser.me/api/portraits/men/10.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Mia King",
+      "about": "Frontend developer with experience in Vue.js and frontend tooling.",
+      "isActive": false,
+      "image": "https://randomuser.me/api/portraits/women/10.jpg"
+    },
+
+    {
+      "id": 21,
+      "name": "Noah Scott",
+      "about": "A DevOps engineer passionate about CI/CD pipelines and infrastructure automation.",
+      "isActive": true,
+      "image": "https://randomuser.me/api/portraits/men/11.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Emma Lewis",
+      "about": "Data analyst specializing in business intelligence and visualization.",
+      "isActive": false,
+      "image": "https://randomuser.me/api/portraits/women/11.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Oliver Martinez",
+      "about": "AI engineer working on natural language processing applications.",
+      "isActive": true,
+      "image": "https://randomuser.me/api/portraits/men/12.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Sophia Robinson",
+      "about": "Cloud engineer proficient in multi-cloud architectures and deployments.",
+      "isActive": true,
+      "image": "https://randomuser.me/api/portraits/women/12.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Elijah Brown",
+      "about": "Backend engineer skilled in RESTful APIs and database design.",
+      "isActive": false,
+      "image": "https://randomuser.me/api/portraits/men/13.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Isabella Johnson",
+      "about": "Frontend designer passionate about creating accessible web applications.",
+      "isActive": true,
+      "image": "https://randomuser.me/api/portraits/women/13.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Lucas Lee",
+      "about": "QA engineer focused on automated testing frameworks and test cases.",
+      "isActive": true,
+      "image": "https://randomuser.me/api/portraits/men/14.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Mia Davis",
+      "about": "A full-stack developer with a strong command of JavaScript frameworks.",
+      "isActive": true,
+      "image": "https://randomuser.me/api/portraits/women/14.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Henry Wilson",
+      "about": "Machine learning engineer building predictive models and AI solutions.",
+      "isActive": false,
+      "image": "https://randomuser.me/api/portraits/men/15.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Amelia King",
+      "about": "Frontend developer with expertise in crafting responsive UIs.",
+      "isActive": true,
+      "image": "https://randomuser.me/api/portraits/women/15.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Jack Taylor",
+      "about": "Mobile app developer working on cross-platform applications.",
+      "isActive": true,
+      "image": "https://randomuser.me/api/portraits/men/16.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Grace Anderson",
+      "about": "Project manager ensuring smooth team collaboration and delivery.",
+      "isActive": true,
+      "image": "https://randomuser.me/api/portraits/women/16.jpg"
+    },
+    {
+      "id": 33,
+      "name": "Aiden Harris",
+      "about": "Cloud architect focusing on scalable solutions in cloud environments.",
+      "isActive": false,
+      "image": "https://randomuser.me/api/portraits/men/17.jpg"
+    },
+    {
+      "id": 34,
+      "name": "Charlotte Walker",
+      "about": "UX researcher dedicated to improving user interactions.",
+      "isActive": true,
+      "image": "https://randomuser.me/api/portraits/women/17.jpg"
+    },
+    {
+      "id": 35,
+      "name": "Owen Young",
+      "about": "Software engineer with a passion for microservices and distributed systems.",
+      "isActive": true,
+      "image": "https://randomuser.me/api/portraits/men/18.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Harper Thomas",
+      "about": "Business analyst focused on leveraging data for actionable insights.",
+      "isActive": true,
+      "image": "https://randomuser.me/api/portraits/women/18.jpg"
+    },
+    {
+      "id": 37,
+      "name": "Daniel Scott",
+      "about": "DevOps specialist streamlining deployment processes and environments.",
+      "isActive": false,
+      "image": "https://randomuser.me/api/portraits/men/19.jpg"
+    },
+    {
+      "id": 38,
+      "name": "Ella Martinez",
+      "about": "Software developer exploring the intersection of code and design.",
+      "isActive": true,
+      "image": "https://randomuser.me/api/portraits/women/19.jpg"
+    },
+    {
+      "id": 39,
+      "name": "Logan White",
+      "about": "Game developer passionate about creating immersive experiences.",
+      "isActive": true,
+      "image": "https://randomuser.me/api/portraits/men/20.jpg"
+    },
+    {
+      "id": 40,
+      "name": "Zoe Lewis",
+      "about": "Data engineer who loves building data pipelines and warehouses.",
+      "isActive": false,
+      "image": "https://randomuser.me/api/portraits/women/20.jpg"
+    }
+  ]
+}

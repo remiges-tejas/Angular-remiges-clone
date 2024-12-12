@@ -1,0 +1,50 @@
+<section>
+  <div>
+    <h2 class="text-2xl font-bold mb-4 font-poppins">Assignment 6</h2>
+    <p class="text-gray-700 mb-4 border p-2 text-[12px]">
+      Modify the above app and add a new button in the HTML template with a
+      label as “Display Profile”. The Html template will show only “Greetings
+      username ” and no profile image. Create a click event on the button with
+      function name as “displayPofile()”. Display the profile image when the
+      user clicks on the “Display Profile” button.
+      <br />
+    </p>
+  </div>
+</section>
+
+<div
+  [hidden]="isvisible"
+  class="max-w-sm mx-auto bg-white border border-gray-200 rounded-lg shadow-rblue shadow-md overflow-hidden"
+>
+  <!-- Profile Image -->
+  <div class="flex justify-center mt-4">
+    <img
+      class="w-56 h-56 rounded-full shadow-rblue shadow-lg border-4 border-white"
+      src="https://nafrua.blog/wp-content/uploads/2024/06/kohli-1.png"
+      alt="Profile Image"
+    />
+  </div>
+  <!-- https://nafrua.blog/wp-content/uploads/2024/06/kohli-1.png -->
+
+  <!-- Card Content -->
+  <div class="p-6 text-center">
+    <!-- Name -->
+    <h2 class="text-2xl font-semibold text-rblue">
+      <span class="text-[15px] text-gray-700">Greetings !</span>
+      {{ username }}
+    </h2>
+
+    <!-- Username -->
+    <p class="text-gray-500 text-sm">{{ title }}</p>
+  </div>
+</div>
+
+<!-- Actions -->
+<div class="mt-4 flex justify-center space-x-4">
+  <button
+    (click)="displayProfile()"
+    class="px-4 py-2 bg-blue-500 text-white rounded-lg shadow hover:bg-blue-600 transition"
+  >
+    {{ !isvisible ? "Hide Profile" : "Show Profile" }}
+  </button>
+</div>
